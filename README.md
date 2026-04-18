@@ -1,3 +1,124 @@
+# 🚀 TaskFlow Frontend
+
+A modern, responsive task management web app built with **React.js**.
+
+## 🌐 Live Demo
+
+https://task-flow-frontend-alpha.vercel.app/
+
+---
+
+## ✨ Features
+
+* 🔐 Authentication (Signup/Login)
+* 📋 Task Management (CRUD)
+* 🎯 Priority & Status handling
+* 🔔 Toast Notifications
+* 🎨 Theme support
+* ⚡ API integration with backend
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js (Hooks)
+* CSS
+* Fetch API
+* JWT Authentication
+* Vercel (Deployment)
+
+---
+
+# ⚙️ RUN LOCALLY
+
+## 1️⃣ Clone Repo
+
+```bash
+git clone https://github.com/your-username/taskflow-frontend.git
+cd taskflow-frontend
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3️⃣ IMPORTANT CHANGE (VERY IMPORTANT)
+
+Your frontend is currently using deployed backend:
+
+```js
+const BASE_URL = "https://taskflow-backend-t0g7.onrender.com";
+```
+
+---
+
+### 👉 If running locally, change it to:
+
+```js
+const BASE_URL = "http://localhost:3000";
+```
+
+---
+
+## 4️⃣ Run App
+
+```bash
+npm start
+```
+
+---
+
+## 🌍 App runs on:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# ⚠️ IMPORTANT NOTES
+
+* Backend must be running locally for API to work
+* If backend not running → login/signup will fail
+* Check CORS settings if errors occur
+
+---
+
+# 🔧 Common Issues
+
+### ❌ CORS Error
+
+→ Fix backend CORS config
+
+### ❌ Failed to fetch
+
+→ Backend not running OR wrong BASE_URL
+
+---
+
+# 🚀 Future Improvements
+
+* 📱 Full mobile responsiveness
+* 📊 Dashboard analytics
+* 🔔 Email reminders
+* ⚡ Performance optimization
+
+---
+
+# 👨‍💻 Author
+
+Bharat Choudhary
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

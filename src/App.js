@@ -545,7 +545,7 @@ const TasksView = ({ token, toast }) => {
         } finally {
             setLoading(false);
         }
-    }, [token]);
+    }, [token, toast]);
 
     useEffect(() => { fetchTasks(); }, [fetchTasks]);
 

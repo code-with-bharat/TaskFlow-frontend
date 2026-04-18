@@ -753,7 +753,7 @@ const AuthPage = ({ onLogin, toast }) => {
                         <div>
                             <label style={{ display: "block", fontSize: 13, fontWeight: 600, color: "var(--text-secondary)", marginBottom: 7 }}>Username</label>
                             <input
-                                placeholder="your_username"
+                                placeholder="your_email.gmail.com"
                                 value={form.username}
                                 autoComplete="username"
                                 autoCapitalize="none"

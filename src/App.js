@@ -849,10 +849,6 @@ const Settings = ({ user, currentTheme, onTheme, toast, onLogout }) => {
                         <div style={{ fontSize: 13, color: "var(--success)", marginTop: 2 }}>● Connected to MongoDB</div>
                     </div>
                 </div>
-                {/* Email upgrade hint */}
-                <div className="info-box">
-                    <strong>📧 Add email support:</strong> Add an <code style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: 12 }}>email</code> field to your User schema, collect it during signup, and pass it to your notification service. Your backend is ready for it!
-                </div>
             </div>
 
             {/* Theme */}
